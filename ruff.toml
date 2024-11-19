@@ -32,8 +32,8 @@ line-length = 88
 indent-width = 4
 
 [lint]
-select = ["E4", "E7", "E9", "F"]
-ignore = []
+select = ["ALL"]
+ignore = ["D", "C90", "N", "INP001", "T201", "COM812", "ISC001", "ERA001"]
 
 fixable = ["ALL"]
 unfixable = []
